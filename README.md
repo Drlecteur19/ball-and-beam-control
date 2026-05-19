@@ -26,9 +26,9 @@ where:
 - NumPy
 - SciPy
 - Matplotlib
-
+- Matlab/Simulink
 ## Future Work
 - PID control
 - State-space control
 - Observer design
-- Real-time control using ESP32/Arduino
+- Real-time control using raspberry pi pico/Arduino
