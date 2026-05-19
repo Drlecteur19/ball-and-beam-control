@@ -20,7 +20,7 @@ def ball_beam(y, t, theta):
     r, v = y
     drdt = v
     # d2rdt2 = -(mg * sin(theta)) / (m + J/R^2)
-    # ملاحظة:using theta like an an canstant input
+    # note:using theta like an an canstant input
     c = 0.8 # friction
     d2rdt2 = -(5/7)*g*np.sin(theta) - c*v
     if abs(r) >= L/2:
